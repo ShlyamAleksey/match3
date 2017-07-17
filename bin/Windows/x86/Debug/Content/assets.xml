@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mainScene.png">
+  <SubTexture name="item5" x="0" y="616" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item1" x="210" y="0" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item2" x="202" y="413" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item3" x="203" y="615" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item4" x="0" y="413" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item0" x="203" y="817" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item6" x="0" y="818" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item7" x="203" y="210" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item8" x="0" y="210" width="202" height="202" pivotX="1" pivotY="1"/>
+
+  <SubTexture name="item9" x="0" y="616" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item10" x="210" y="0" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item11" x="202" y="413" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item12" x="203" y="615" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item13" x="0" y="413" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item14" x="203" y="817" width="202" height="202" pivotX="1" pivotY="1"/>
+  <SubTexture name="item15" x="0" y="818" width="202" height="202" pivotX="1" pivotY="1"/>
+
+  <SubTexture name="frame" x="0" y="0" width="210" height="210" pivotX="4.7" pivotY="4.7"/>
+
+  <SubTexture name="swords" x="427" y="131" width="59" height="48" pivotX="0" pivotY="0"/>
+  <SubTexture name="flags" x="133" y="403" width="340" height="63" pivotX="0" pivotY="0"/>
+  <SubTexture name="characterBG" x="0" y="0" width="299" height="273" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster0" x="382" y="466" width="99" height="98" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster1" x="167" y="601" width="139" height="104" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster10" x="0" y="618" width="167" height="167" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster11" x="0" y="403" width="133" height="215" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster2" x="393" y="262" width="102" height="118" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster3" x="306" y="567" width="99" height="99" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster4" x="264" y="466" width="118" height="101" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster5" x="133" y="466" width="131" height="135" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster6" x="262" y="273" width="131" height="130" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster7" x="299" y="0" width="134" height="131" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster8" x="0" y="273" width="262" height="130" pivotX="0" pivotY="0"/>
+  <SubTexture name="monster9" x="299" y="131" width="128" height="131" pivotX="0" pivotY="0"/>
+  <SubTexture name="red" x="167" y="705" width="313" height="22" pivotX="0" pivotY="0"/>
+  <SubTexture name="upperBar" x="0" y="785" width="324" height="32" pivotX="2" pivotY="2"/>
+  
+</TextureAtlas>
