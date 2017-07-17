@@ -88,8 +88,8 @@ namespace Lizzard.str
 		{
             GameActiveStatus.deactive();
 
-            SimplePoint pt1 = VectorUtils.cloneVector(_model.chooseFirst);
-            SimplePoint pt2 = VectorUtils.cloneVector(_model.chooseSecond);
+            SimplePoint pt1 = PointUtil.clonePoint(_model.chooseFirst);
+            SimplePoint pt2 = PointUtil.clonePoint(_model.chooseSecond);
 			
 			ItemView piece1 = _model.boardData[(int)pt1.X, (int)pt1.Y].assets;
 			ItemView piece2 = _model.boardData[(int)pt2.X, (int)pt2.Y].assets;
@@ -196,7 +196,7 @@ namespace Lizzard.str
 
 		private void onChoose(Event e)
 		{
-            SimplePoint pt = VectorUtils.cloneVector((e.data as ChooseData).position);
+            SimplePoint pt = PointUtil.clonePoint((e.data as ChooseData).position);
 			_model.boardData[(int) pt.X, (int) pt.Y].assets.selected.visible = (e.data as ChooseData).choose;
 		}
 

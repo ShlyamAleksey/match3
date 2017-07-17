@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/C# Projects/Lizzard/Lizzard/Content/lizzard.png</File>
-    <File>D:/C# Projects/Lizzard/Lizzard/Content/monsters.png</File>
-    <File>D:/C# Projects/Lizzard/Lizzard/Content/calibri.spritefont</File>
+    <File>D:/Media/Other/Programming/c#/Lizzard/Lizzard/Content/lizzard.png</File>
+    <File>D:/Media/Other/Programming/c#/Lizzard/Lizzard/Content/monsters.png</File>
+    <File>D:/Media/Other/Programming/c#/Lizzard/Lizzard/Content/calibri.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>

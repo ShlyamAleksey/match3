@@ -86,3 +86,5 @@ D:\Media\Other\Programming\c#\Lizzard\Lizzard\bin\Windows\x86\Debug\Lizzard.pdb
 D:\Media\Other\Programming\c#\Lizzard\Lizzard\obj\x86\Debug\Lizzard.csprojResolveAssemblyReference.cache
 D:\C# Projects\Lizzard\Lizzard\bin\Windows\x86\Debug\Content\monsters.xnb
 D:\C# Projects\Lizzard\Lizzard\bin\Windows\x86\Debug\Content\calibri.xnb
+D:\Media\Other\Programming\c#\Lizzard\Lizzard\bin\Windows\x86\Debug\Content\calibri.xnb
+D:\Media\Other\Programming\c#\Lizzard\Lizzard\bin\Windows\x86\Debug\Content\monsters.xnb

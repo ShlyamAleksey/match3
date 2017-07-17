@@ -246,8 +246,8 @@ namespace Lizzard.str.model
             boardData[(int)chooseFirst.X, (int)chooseFirst.Y] = boardData[(int)chooseSecond.X, (int)chooseSecond.Y];
             boardData[(int)chooseSecond.X, (int)chooseSecond.Y] = tempPiece;
 
-            boardData[(int)chooseFirst.X, (int)chooseFirst.Y].position = VectorUtils.cloneVector(chooseFirst);    
-            boardData[(int)chooseSecond.X, (int)chooseSecond.Y].position = VectorUtils.cloneVector(chooseSecond);
+            boardData[(int)chooseFirst.X, (int)chooseFirst.Y].position = PointUtil.clonePoint(chooseFirst);    
+            boardData[(int)chooseSecond.X, (int)chooseSecond.Y].position = PointUtil.clonePoint(chooseSecond);
 
             dispatchEvent(new Event(GameEvent.SWAP_PIECE));
 		}
@@ -265,7 +265,7 @@ namespace Lizzard.str.model
 		{	
 			if(chooseFirst == null) 
 			{
-				chooseFirst = VectorUtils.cloneVector(position);
+				chooseFirst = PointUtil.clonePoint(position);
                 chooseSecond = null;
                 onChoose(chooseFirst, true);
             }
@@ -284,7 +284,7 @@ namespace Lizzard.str.model
 			if( (Math.Abs(chooseFirst.X - position.X) == 1 &&  chooseFirst.Y == position.Y) ||
 				(Math.Abs(chooseFirst.Y - position.Y) == 1 &&  chooseFirst.X == position.X))
 			{
-				chooseSecond = VectorUtils.cloneVector(position);
+				chooseSecond = PointUtil.clonePoint(position);
                 onChoose(chooseFirst, false);
              }
 			else if(chooseFirst.X == position.X && chooseFirst.Y == position.Y)

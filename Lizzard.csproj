@@ -75,7 +75,6 @@
     <Compile Include="Observer\Event.cs" />
     <Compile Include="Observer\EventDispatcher.cs" />
     <Compile Include="ComponentPattern\MovieClip.cs" />
-    <Compile Include="Pets.cs" />
     <Compile Include="ComponentPattern\XmlAssetsParser.cs" />
     <Compile Include="str\view\CharacterView.cs" />
     <Compile Include="str\view\FightView.cs" />
@@ -83,7 +82,7 @@
     <Compile Include="str\model\PieceModel.cs" />
     <Compile Include="Common\Tween.cs" />
     <Compile Include="Common\ListUtils.cs" />
-    <Compile Include="Common\VectorUtils.cs" />
+    <Compile Include="Common\PointUtil.cs" />
     <Compile Include="str\view\ProgressBarView.cs" />
   </ItemGroup>
   <ItemGroup>
